@@ -20,15 +20,23 @@
     <div class="item">
 
       <span class="project-title">
-        {% if project.link %}
-        <a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
-        {% else %}
         {{ project.title }}
-        {% endif %}
       </span>
 
       {% if project.tagline %}
-      - <span class="project-tagline">{{ project.tagline }}</span>
+      <span class="project-tagline">{{ project.tagline }}</span>
+
+      <ul>
+      {% for detail in project.details %}
+          {% if detail contains ":" %}
+              <li><strong>{{ detail | split: ":" | first }}:</strong> {{ detail | split: ":" | last }}</li>
+          {% else %}
+              <li>{{ detail }}</li>
+          {% endif %}
+      {% endfor %}
+      </ul>
+
+
       {% endif %}
 
     </div><!--//item-->

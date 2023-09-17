@@ -3,9 +3,9 @@
 #
 
 sidebar:
-    position: right # position of the sidebar : left or right
+    position: left # position of the sidebar : left or right
     about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Sheida Khodayari, M.Sc.
@@ -16,6 +16,7 @@ sidebar:
     email: sheida.khy@gmail.com
     phone: +49 15756230213
     linkedin: sheida-khodayari
+    globe: Ostring str. 68, 65824,     Schawalbach am Taunus, Germany
 
     languages:
       title: Languages
@@ -24,229 +25,134 @@ sidebar:
           level: Fluent
 
         - idiom: German
-          level: Uper intermediate (B2)
+          level: Upper intermediate (B2)
 
         - idiom: Persian
           level: Native
 
+    honors:
+      title: Honors and Awards
+      info:
+        - item: "Top Bachelor's student (2009-2012) with GPA 17.36/20, 17.48/20 and 18.48/20."
+        - item: "Bachelor's Degree Earned in 7 Semesters (Ahead of Schedule)"
+        - item: "Obtain 1st Dan Black Belt in Martial Art (Total Contact)."
+        - item: "Razmavaran Martial Art Judgment & Coaching - Level 3 Certification (2009)"
+        - item: "National Champion (2007-2008): 1st place in Total Contact Competition."
+    
     interests:
       title: Hobbies
       info:
         - item: Hyperrealistic drawing
-          link:
-
         - item: Martial Arts
-          link:
+        - item: Fitness
 
-        - item: Cooking
-          link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
-education:
-    title: Education
-    info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+       I am a programmer who appreciates simple well-written code and beautiful algorithms. My goal is to write maintainable and scalable software.
 
 experiences:
-    title: Experiences
+    title: Work experience
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Application Developer
+        time: Oct 2017 - Present
+        company: ProCredit Holding AG & Co. KGaA, Frankfurt am Main
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+          Developing and maintaining database applications and tools that store and process the information collected from individual ProCredit entities, and developing reporting solutions.
+      - role: Research Associate - Faculty of Mathematics
+        time: Dec 2015 - Apr 2016
+        company: Bergische Universität Wuppertal,  Wuppertal
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-
-certifications:
-      title: Certifications
-      list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
-
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
-
+              - Led a Monte Carlo simulation project, utilizing C++ and MATLAB, showcasing adept technical skills and complex problem-solving.
+              - Assimilated insights from various academic sources, highlighting strong analytical abilities and keen attention to detail.
+              - Produced a concise report with code outputs and figures, demonstrating effective communication and data presentation skills.
+              - Collaborated with faculty, exemplifying teamwork, adaptability, and a proactive approach in an academic setting.
 projects:
     title: Projects
     intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      The following list of project is done in my current job.
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: "EinSig:"
+        tagline: "Windows Desktop application is used to execute two stored procedures for the requested reporting date
+        from the database and convert the output into an XML file and upload the XML file to the BearingPoint
+        server via SFTP channel."
+        details:
+          - "Role: Spearheaded both backend and frontend development from scratch."
+          - "Technologies: WPF framework, C#.Net, Entity Framework, XAML, SQL, TFS, Visual Studio"
+          - "Team size: 1 (inclusive of myself)"
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: "Anti-money laundering (AML):"
+        tagline: "Web application to report AML related events and statistics to ProCredit Holding by ProCredit banks."
+        details:
+          - "Role: backend and frontend development from scratch."
+          - "Technologies: ASP.NET Core, React.js. agile approach, Entity Framework Core."
+          - "Team size: 2 (inclusive of myself)"
+          - "Soft Skills Highlighted:
+            Strategic Vision: Aligned app blueprint with organizational needs.
+            Mentorship: Fostered a culture of continuous learning and best practices.
+            Stakeholder Engagement: Streamlined communication between tech and business teams."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: "Data Quality Management tool:"
+        tagline: "Web application with a list of validation checks for credit data according to the general framework described in the Credit Data Validation Standards."
+        details:
+          - "Role: create about 50 stored procedure scripts to be executed by the application"
+          - "Technologies: SQL Server Management Studio"
+          - "Team size: 1 (inclusive of myself)"
+        
+        
+      - title: "Liquidity Report Manager:"
+        tagline: " Desktop application to store and process regulatory reports on liquidity risk in a way that they can be consumed by the DaVinci application. The application allows uploading Excel files to the database, processing the cube, export XML files."
+        details:
+          - "Role: maintain and update the application"
+          - "Technologies:C#, SSIS packages, SQL, SSAS, TFS"
 
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: "Academic Projects:"
+        tagline: |
+          - "Design and implementation of a computer game using C++ language and OpenGL platform"
+          - "Design Three-body problem by Python"
+          - "Parallelized Trapezoidal rule, Monte Carlo rule, Lanczos Algorithm and Matrix by MPI"
+          - "Simulation of a 4-Dimensional scalar φ4 theory for a two-component real scalar field φ by C and MPI"
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+education:
+    title: Education
+    info:
+      - degree: "Master of Science in Computer Simulation (GPA: 2.2)"
+        university: Bergische Universität Wuppertal, Wuppertal
+        time: Oct 2013 - Oct 2016
+        details: |
+          **Master thesis:**
+          Monte Carlo simulation of the 4D abelian Higgs Model 
+          The goal was to investigate the Abelian Higgs, which is a U(1) Gauge model coupled to a fixed-length scalar field, on a 4-dimensional lattice. It is modeled by using Monte Carlo simulation in C++.
+      - degree: "Bachelor of Science in Hardware Engineering (GPA: 1.9)"
+        university: Azad Tehran University, Tehran
+        time: Sep 2008 - Feb 2012
+        details: |  
+          **Bachelor thesis:** Mobile robot navigation by using ant colony algorithm 
+          The goal was to find an optimal path in mesh-networked space based on the ant colony algorithm.
+certifications:
+      title: Certifications
+      list:
+        - name: Analyzing Data with Power BI
+          start: 2019
+          organization: Microsoft
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+        - name: Developing SQL Data Models
+          start: 2018
+          organization: Microsoft
 
 skills:
-    title: Skills &amp; Proficiency
-
-    toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
+    title: Skills
+    items: 
+      - "Programming language: C#.Net, ASP.Net, React.js, SQL,VBA, C++"
+      - "SQL Server Tools: SQL Server Management Studio, SSIS, SSAS"
+      - "Developing stored procedure"
+      - "Tools & Applications: Microsoft Office; MS Visual Studio; MS Visio"
+      - "Architecture: Relational DBMS; OLAP"
+      - "Development Methodologies: Agile, Kanban"
+      - "Version control system: TFS, Azure DevOps, Git"
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    Schwalbach am Taunus, 17.09.2023

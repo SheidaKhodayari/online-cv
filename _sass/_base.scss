@@ -77,7 +77,7 @@ p {
 
   .avatar {
     //used for profile image
-    max-width: 100px;
+    max-width: 200px;
     margin-bottom: 15px;
     border: 0px solid #fff;
     border-radius: 100%;
@@ -149,6 +149,16 @@ p {
   }
 
   .interests-list {
+    margin-bottom: 0;
+    li {
+      margin-bottom: 10px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .honors-list {
     margin-bottom: 0;
     li {
       margin-bottom: 10px;
