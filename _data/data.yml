@@ -50,7 +50,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-       I am a programmer who appreciates simple well-written code and beautiful algorithms. My goal is to write maintainable and scalable software.
+       I am an experienced Application Developer with a strong proficiency in C# programming and extensive knowledge of database management using SQL Server Management Studio. With a keen eye for detail and a passion for writing clean and maintainable code, my goal is to deliver scalable software solutions that excel in both functionality and aesthetics.
 
 experiences:
     title: Work experience
@@ -59,7 +59,11 @@ experiences:
         time: Oct 2017 - Present
         company: ProCredit Holding AG & Co. KGaA, Frankfurt am Main
         details: |
-          Developing and maintaining database applications and tools that store and process the information collected from individual ProCredit entities, and developing reporting solutions.
+              - Spearheaded the development and maintenance of database applications and reporting tools, streamlining data collection and processing across ProCredit entities.
+              - Led the complete development of two C# projects, EinSig (solo) and AML (with a colleague), demonstrating strong problem-solving skills and a commitment to quality code.    
+              - Proficiently managed SQL queries and data analysis, providing valuable insights to support business decision-making.
+              - Administered database access rights, permissions, schemas, and security on the test server.
+              - Collaborated seamlessly with cross-functional teams, ensuring effective communication between technical and business units.
       - role: Research Associate - Faculty of Mathematics
         time: Dec 2015 - Apr 2016
         company: Bergische Universität Wuppertal,  Wuppertal
@@ -71,11 +75,11 @@ experiences:
 projects:
     title: Projects
     intro: >
-      The following list of project is done in my current job.
+      The following list of projects is done in my current job.
     assignments:
       - title: "EinSig:"
         tagline: "Windows Desktop application is used to execute two stored procedures for the requested reporting date
-        from the database and convert the output into an XML file and upload the XML file to the BearingPoint
+        from the database, convert the output into an XML file and upload the XML file to the BearingPoint
         server via SFTP channel."
         details:
           - "Role: Spearheaded both backend and frontend development from scratch."
@@ -84,7 +88,7 @@ projects:
 
 
       - title: "Anti-money laundering (AML):"
-        tagline: "Web application to report AML related events and statistics to ProCredit Holding by ProCredit banks."
+        tagline: "Web application to report AML-related events and statistics to ProCredit Holding by ProCredit banks."
         details:
           - "Role: backend and frontend development from scratch."
           - "Technologies: ASP.NET Core, React.js. agile approach, Entity Framework Core."
@@ -130,7 +134,7 @@ education:
         university: Azad Tehran University, Tehran
         time: Sep 2008 - Feb 2012
         details: |  
-          **Bachelor thesis:** Mobile robot navigation by using ant colony algorithm 
+          **Bachelor thesis:** Mobile robot navigation by using Ant colony algorithm 
           The goal was to find an optimal path in mesh-networked space based on the ant colony algorithm.
 certifications:
       title: Certifications
@@ -146,13 +150,13 @@ certifications:
 skills:
     title: Skills
     items: 
-      - "Programming language: C#.Net, ASP.Net, React.js, SQL,VBA, C++"
-      - "SQL Server Tools: SQL Server Management Studio, SSIS, SSAS"
-      - "Developing stored procedure"
+      - "Programming languages: C#.Net, ASP.Net, React.js, SQL,VBA, C++"
+      - "Database Management: Skilled in SQL Server Management Studio, SSIS, SSAS, stored procedure development, and data modeling."
       - "Tools & Applications: Microsoft Office; MS Visual Studio; MS Visio"
       - "Architecture: Relational DBMS; OLAP"
       - "Development Methodologies: Agile, Kanban"
       - "Version control system: TFS, Azure DevOps, Git"
+      - "Soft skills: Adaptability, Continuous Learning, Leadership, Teamwork, Time Management"
 
 footer: >
     Schwalbach am Taunus, 17.09.2023
