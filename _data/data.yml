@@ -59,18 +59,18 @@ experiences:
         time: Oct 2017 - Present
         company: ProCredit Holding AG & Co. KGaA, Frankfurt am Main
         details: |
-              - Spearheaded the development and maintenance of database applications and reporting tools, streamlining data collection and processing across ProCredit entities.
-              - Proficiently managed SQL queries and data analysis, providing valuable insights to support business decision-making.
-              - Administered database access rights, permissions, schemas, and security on the test server.
-              - Collaborated seamlessly with cross-functional teams, ensuring effective communication between technical and business units.
+              - Spearheaded the development and maintenance of database applications and reporting tools, streamlining data collection and processing across ProCredit entities
+              - Proficiently managed SQL queries and data analysis, providing valuable insights to support business decision-making
+              - Administered database access rights, permissions, schemas, and security on the test server
+              - Collaborated seamlessly with cross-functional teams, ensuring effective communication between technical and business units
       - role: Research Associate - Faculty of Mathematics
         time: Dec 2015 - Apr 2016
         company: Bergische Universität Wuppertal,  Wuppertal
         details: |
-              - Led a Monte Carlo simulation project, utilizing C++ and MATLAB, showcasing adept technical skills and complex problem-solving.
-              - Assimilated insights from various academic sources, highlighting strong analytical abilities and keen attention to detail.
-              - Produced a concise report with code outputs and figures, demonstrating effective communication and data presentation skills.
-              - Collaborated with faculty, exemplifying teamwork, adaptability, and a proactive approach in an academic setting.
+              - Led a Monte Carlo simulation project, utilizing C++ and MATLAB, showcasing adept technical skills and complex problem-solving
+              - Assimilated insights from various academic sources, highlighting strong analytical abilities and keen attention to detail
+              - Produced a concise report with code outputs and figures, demonstrating effective communication and data presentation skills
+              - Collaborated with faculty, exemplifying teamwork, adaptability, and a proactive approach in an academic setting
 projects:
     title: Projects
     intro: >
@@ -85,7 +85,7 @@ projects:
 
 
       - title: "Anti-money laundering (AML):"
-        tagline: "Designed and developed a web application for reporting AML-related events and statistics to ProCredit Holding by ProCredit banks, enhancing compliance and risk management."
+        tagline: "Designed and developed a web application for reporting AML-related events and statistics to ProCredit Holding by ProCredit banks, enhancing compliance and risk management"
         details:
           - "Role: Led both backend and frontend development efforts from scratch"
           - "Technologies: Employed ASP.NET Core, React.js, Agile approach, Entity Framework Core"
@@ -93,7 +93,7 @@ projects:
 
 
       - title: "Data Quality Management tool:"
-        tagline: "Web application with a list of validation checks for credit data according to the general framework described in the Credit Data Validation Standards."
+        tagline: "Web application with a list of validation checks for credit data according to the general framework described in the Credit Data Validation Standards"
         details:
           - "Role: Developed approximately 50 stored procedure scripts to be executed by the application, ensuring data accuracy and compliance"
           - "Technologies: SQL Server Management Studio"
@@ -104,7 +104,7 @@ projects:
         tagline: " Desktop application to store and process regulatory reports on liquidity risk in a way that they can be consumed by the DaVinci application. The application allows uploading Excel files to the database, processing the cube, export XML files."
         details:
           - "Role: Managed the ongoing maintenance and updates of the application"
-          - "Technologies: Utilized  C#, SSIS packages, SQL, SSAS, TFS for development and version control."
+          - "Technologies: Utilized  C#, SSIS packages, SQL, SSAS, TFS for development and version control"
 
       - title: "Academic Projects:"
         tagline: |
@@ -143,7 +143,7 @@ skills:
     title: Skills
     items: 
       - "Programming languages: C#.Net, ASP.Net, React.js, SQL,VBA, C++"
-      - "Database Management: Skilled in SQL Server Management Studio, SSIS, SSAS, stored procedure development, and data modeling."
+      - "Database Management: Skilled in SQL Server Management Studio, SSIS, SSAS, stored procedure development"
       - "Tools & Applications: Microsoft Office; MS Visual Studio; MS Visio"
       - "Architecture: Relational DBMS; OLAP"
       - "Development Methodologies: Agile, Kanban"
