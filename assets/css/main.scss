@@ -60,7 +60,7 @@ $sidebar-order: 2;
     &::before {
         content: '\2022'; // this is a bullet character
         position: absolute;
-        left: -0.5em; // adjust this as needed
+        left: -0.4em; // adjust this as needed
     }
 }
 
