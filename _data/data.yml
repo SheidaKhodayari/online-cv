@@ -33,11 +33,11 @@ sidebar:
     honors:
       title: Honors and Awards
       info:
-        - item: "Top Bachelor's student (2009-2012) with GPA 17.36/20, 17.48/20 and 18.48/20."
+        - item: "Top Bachelor's student (2009-2012) with GPA 1.6, 1.6, and 1.3"
         - item: "Bachelor's Degree Earned in 7 Semesters (Ahead of Schedule)"
-        - item: "Obtain 1st Dan Black Belt in Martial Art (Total Contact)."
+        - item: "Obtain 1st Dan Black Belt in Martial Art (Total Contact)"
         - item: "Razmavaran Martial Art Judgment & Coaching - Level 3 Certification (2009)"
-        - item: "National Champion (2007-2008): 1st place in Total Contact Competition."
+        - item: "National Champion (2007-2008): 1st place in Total Contact Competition"
     
     interests:
       title: Hobbies
@@ -79,7 +79,7 @@ projects:
       - title: "EinSig:"
         tagline: "Developed a Windows Desktop application that executes two stored procedures to retrieve data from the database for a requested reporting date. The retrieved data is transformed into XML format and securely uploaded to the Regnology server via an SFTP channel."
         details:
-          - "Role: Spearheaded both backend and frontend development from inception to implementation."
+          - "Role: Spearheaded both backend and frontend development from inception to implementation"
           - "Technologies: Utilized the WPF framework, C#.Net, Entity Framework, XAML, SQL, TFS, Visual Studio"
           - "Team size: Solely responsible for the project"
 
@@ -87,15 +87,15 @@ projects:
       - title: "Anti-money laundering (AML):"
         tagline: "Designed and developed a web application for reporting AML-related events and statistics to ProCredit Holding by ProCredit banks, enhancing compliance and risk management."
         details:
-          - "Role: Led both backend and frontend development efforts from scratch."
-          - "Technologies: Employed ASP.NET Core, React.js, Agile approach, Entity Framework Core."
-          - "Team size: Collaborated with one colleague from the application development team."
+          - "Role: Led both backend and frontend development efforts from scratch"
+          - "Technologies: Employed ASP.NET Core, React.js, Agile approach, Entity Framework Core"
+          - "Team size: Collaborated with one colleague from the application development team"
 
 
       - title: "Data Quality Management tool:"
         tagline: "Web application with a list of validation checks for credit data according to the general framework described in the Credit Data Validation Standards."
         details:
-          - "Role: Developed approximately 50 stored procedure scripts to be executed by the application, ensuring data accuracy and compliance."
+          - "Role: Developed approximately 50 stored procedure scripts to be executed by the application, ensuring data accuracy and compliance"
           - "Technologies: SQL Server Management Studio"
           - "Team size:  Solely responsible for developing the checks in the format of stored procedures"
         
@@ -121,12 +121,12 @@ education:
         details: |
           **Master thesis:**
           Monte Carlo simulation of the 4D abelian Higgs Model <br>
-          The goal was to investigate the Abelian Higgs, which is a U(1) Gauge model coupled to a fixed-length scalar field, on a 4-dimensional lattice. It is modeled by using Monte Carlo simulation in C++.
+          The goal was to investigate the Abelian Higgs, which is a U(1) Gauge model coupled to a fixed-length scalar field, on a 4-dimensional lattice. It is modeled by using Monte Carlo simulation in C++ and Matlab.
       - degree: "Bachelor of Science in Hardware Engineering (GPA: 1.9)"
         university: Azad Tehran University, Tehran
         time: Sep 2008 - Feb 2012
         details: |  
-          **Bachelor thesis:** Mobile robot navigation by using Ant colony algorithm 
+          **Bachelor thesis:** Mobile robot navigation by using Ant colony algorithm <br>
           The goal was to find an optimal path in mesh-networked space based on the ant colony algorithm.
 certifications:
       title: Certifications
