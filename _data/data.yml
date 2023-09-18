@@ -107,7 +107,7 @@ projects:
 
 Academicprojects:
     title: Academic Projects
-    tagline: |
+    tagline: 
       - Design and implementation of a computer game using C++ language and OpenGL platform
       - Design Three-body problem by Python
       - Simulated of a 4-Dimensional scalar φ4 theory for a two-component real scalar field φ using C
