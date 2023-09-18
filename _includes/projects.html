@@ -1,4 +1,6 @@
 {% assign projects = site.data.data.projects %}
+{% assign academic_projects = site.data.data.Academicprojects %}
+
 {% if projects %}
 <section class="section projects-section">
 
@@ -20,7 +22,7 @@
     <div class="item">
 
       <span class="project-title">
-        {{ project.title }} <br>
+        {{ project.title }}<br>
       </span>
 
       {% if project.tagline %}
@@ -36,11 +38,30 @@
       {% endfor %}
       </ul>
 
-
       {% endif %}
 
     </div><!--//item-->
   {% endfor %}
+
+</section><!--//section-->
+{% endif %}
+
+{% if academic_projects %}
+<section class="section projects-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-archive fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ academic_projects.title }}
+  </h2>
+
+  <ul>
+  {% for project in academic_projects.tagline %}
+      <li>{{ project }}</li>
+  {% endfor %}
+  </ul>
 
 </section><!--//section-->
 {% endif %}
