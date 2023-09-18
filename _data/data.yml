@@ -74,7 +74,7 @@ experiences:
 projects:
     title: Projects
     intro: >
-      The following list of projects is done in my current job.
+      Professional projects at ProCredit Holding 
     assignments:
       - title: "EinSig:"
         tagline: "Developed a Windows Desktop application that executes two stored procedures to retrieve data from the database for a requested reporting date. The retrieved data is transformed into XML format and securely uploaded to the Regnology server via an SFTP channel."
