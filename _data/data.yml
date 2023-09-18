@@ -120,7 +120,7 @@ education:
         time: Oct 2013 - Oct 2016
         details: |
           **Master thesis:**
-          Monte Carlo simulation of the 4D abelian Higgs Model 
+          Monte Carlo simulation of the 4D abelian Higgs Model <br>
           The goal was to investigate the Abelian Higgs, which is a U(1) Gauge model coupled to a fixed-length scalar field, on a 4-dimensional lattice. It is modeled by using Monte Carlo simulation in C++.
       - degree: "Bachelor of Science in Hardware Engineering (GPA: 1.9)"
         university: Azad Tehran University, Tehran
