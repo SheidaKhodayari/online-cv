@@ -14,7 +14,7 @@
   <div class="skillset">
 
     <!-- Inline style to remove the tab at the beginning of skill bullets -->
-    <ul style="padding-left: 0; margin-left: 0;">
+    <ul style="padding-left: 0; margin-left: 0; line-height: 1.5;">
       {% for skill in skills.items %}
           {% if skill contains ":" %}
               <li><strong>{{ skill | split: ":" | first }}:</strong> {{ skill | split: ":" | last }}</li>
