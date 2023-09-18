@@ -72,9 +72,9 @@ experiences:
               - Produced a concise report with code outputs and figures, demonstrating effective communication and data presentation skills
               - Collaborated with faculty, exemplifying teamwork, adaptability, and a proactive approach in an academic setting
 projects:
-    title: Projects
+    title: Professional projects
     intro: >
-      Professional projects at ProCredit Holding 
+
     assignments:
       - title: "EinSig:"
         tagline: "Developed a Windows Desktop application that executes two stored procedures to retrieve data from the database for a requested reporting date. The retrieved data is transformed into XML format and securely uploaded to the Regnology server via an SFTP channel."
