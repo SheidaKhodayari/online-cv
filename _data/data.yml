@@ -73,8 +73,6 @@ experiences:
               - Collaborated with faculty, exemplifying teamwork, adaptability, and a proactive approach in an academic setting
 projects:
     title: Professional projects
-    intro: >
-
     assignments:
       - title: "EinSig:"
         tagline: "Developed a Windows Desktop application that executes two stored procedures to retrieve data from the database for a requested reporting date. The retrieved data is transformed into XML format and securely uploaded to the Regnology server via an SFTP channel."
@@ -106,11 +104,13 @@ projects:
           - "Role: Managed the ongoing maintenance and updates of the application"
           - "Technologies: Utilized  C#, SSIS packages, SQL, SSAS, TFS for development and version control"
 
-      - title: "Academic Projects:"
-        tagline: |
-          - "Design and implementation of a computer game using C++ language and OpenGL platform"
-          - "Design Three-body problem by Python"
-          - "Simulated of a 4-Dimensional scalar φ4 theory for a two-component real scalar field φ using C"
+
+Academicprojects:
+    title: Academic Projects
+    tagline: |
+      - "Design and implementation of a computer game using C++ language and OpenGL platform"
+      - "Design Three-body problem by Python"
+      - "Simulated of a 4-Dimensional scalar φ4 theory for a two-component real scalar field φ using C"
 
 education:
     title: Education
