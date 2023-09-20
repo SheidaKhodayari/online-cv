@@ -1,11 +1,6 @@
----
-
----
-
 @charset "utf-8";
 
-
-// define variable with front matter
+// Define variables with front matter
 {% if site.data.data.sidebar.position == 'left' %}
 $resume-order: 2;
 $sidebar-order: 1;
@@ -14,30 +9,22 @@ $resume-order: 1;
 $sidebar-order: 2;
 {% endif %}
 
-.experiences-section, .projects-section, .educations-section  {
+.experiences-section, .projects-section, .educations-section, .academic-projects-section {
     text-align: justify;
 }
+
 .summary-section .summary {
     text-align: justify;
 }
+
 .honors-container .interests-list li {
     text-align: justify;
 }
 
-.projects-section ul {
+.projects-section ul, .academic-projects-section ul {
     list-style-type: disc; // ensures bullets are shown
     padding-left: 1em; // adjust this as needed
     margin-left: 0; // remove margin on the left
-}
-
-.projects-section li {
-    padding-left: 0; // remove padding on the left
-    position: relative;
-    &::before {
-        content: '\2022'; // this is a bullet character
-        position: absolute;
-        left: -1em; // adjust this as needed
-    }
 }
 
 .experiences-section ul {
@@ -60,7 +47,7 @@ $sidebar-order: 2;
     list-style-type: disc; // ensures bullets are shown
     padding-left: 1em; // adjust this as needed
     margin-left: 0; // remove margin on the left
-    text-indent: 0; 
+    text-indent: 0;
 }
 
 .honors-container li {
@@ -73,9 +60,8 @@ $sidebar-order: 2;
     }
 }
 
-
 .address-line {
-    text-indent: 1em;    /* Adjust this value to get the desired alignment */
+    text-indent: 1em; // Adjust this value to get the desired alignment
     margin-left: 0;
 }
 
