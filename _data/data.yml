@@ -104,7 +104,12 @@ projects:
           - "Role: Managed the ongoing maintenance and updates of the application"
           - "Technologies: Utilized  C#, SSIS packages, SQL, SSAS, TFS for development and version control"
 
-
+Academicprojects:
+    title: Academic Projects
+    tagline: 
+      - Design and implementation of a computer game using C++ language and OpenGL platform
+      - Design Three-body problem by Python
+      - Simulated of a 4-Dimensional scalar φ4 theory for a two-component real scalar field φ using C
 
 education:
     title: Education
