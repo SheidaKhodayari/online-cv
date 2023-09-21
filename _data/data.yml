@@ -94,7 +94,7 @@ projects:
         details:
           - "Role: Developed approximately 50 stored procedure scripts to be executed by the application, ensuring data accuracy and compliance"
           - "Technologies: SQL Server Management Studio"
-          - "Team size:  Solely responsible for developing the checks in the format of stored procedures"
+          - "Team size:  Solely developed checks as stored procedures"
         
         
       - title: "Liquidity Report Manager:"
