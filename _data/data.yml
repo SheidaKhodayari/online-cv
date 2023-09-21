@@ -89,7 +89,7 @@ projects:
           - "Technologies: Employed ASP.NET Core, React.js, Entity Framework Core"
           - "Team size: Collaborated with one colleague from the application development team"
 
-      - title: "Data Quality Management tool:"
+      - title: "<br><br><br><br><br><br>Data Quality Management tool:"
         tagline: "Web application with a list of validation checks for credit data according to the general framework described in the Credit Data Validation Standards"
         details:
           - "Role: Developed approximately 50 stored procedure scripts to be executed by the application, ensuring data accuracy and compliance"
@@ -97,7 +97,7 @@ projects:
           - "Team size:  Solely responsible for developing the checks in the format of stored procedures"
         
         
-      - title: "<br><br><br><br><br><br>Liquidity Report Manager:"
+      - title: "Liquidity Report Manager:"
         tagline: " Desktop application to store and process regulatory reports on liquidity risk in a way that they can be consumed by the DaVinci application. The application allows uploading Excel files to the database, processing the cube and export XML files."
         details:
           - "Role: Managed the ongoing maintenance and updates of the application"
