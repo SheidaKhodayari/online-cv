@@ -97,7 +97,7 @@ projects:
           - "Team size:  Solely responsible for developing the checks in the format of stored procedures"
         
         
-      - title: "Liquidity Report Manager:"
+      - title: "<br><br><br><br><br><br><br>Liquidity Report Manager:"
         tagline: " Desktop application to store and process regulatory reports on liquidity risk in a way that they can be consumed by the DaVinci application. The application allows uploading Excel files to the database, processing the cube, export XML files."
         details:
           - "Role: Managed the ongoing maintenance and updates of the application"
