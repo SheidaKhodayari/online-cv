@@ -88,8 +88,6 @@ projects:
           - "Role: Led both backend and frontend development efforts from scratch"
           - "Technologies: Employed ASP.NET Core, React.js, Agile approach, Entity Framework Core"
           - "Team size: Collaborated with one colleague from the application development team"
-          - |
-            \\pagebreak
 
       - title: "Data Quality Management tool:"
         tagline: "Web application with a list of validation checks for credit data according to the general framework described in the Credit Data Validation Standards"
