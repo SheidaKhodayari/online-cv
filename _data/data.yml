@@ -75,18 +75,18 @@ projects:
     title: Professional projects
     assignments:
       - title: "EinSig:"
-        tagline: "Developed a Windows Desktop application that executes two stored procedures to retrieve data from the database for a requested reporting date. The retrieved data is transformed into XML format and securely uploaded to the Regnology server via an SFTP channel."
+        tagline: "Developed a Windows Desktop application to automate a previously manual process, as requested by auditors. The application allows users to securely retrieve and transform data into an XML format, which is then parsed by Regnology and uploaded securely to their server via an SFTP channel."
         details:
-          - "Role: Spearheaded both backend and frontend development from inception to implementation"
+          - "Role: Led full-cycle development, liaised with stakeholders, and coordinated project-related activities from inception to post-launch support."
           - "Technologies: Utilized the WPF framework, C#.Net, Entity Framework, XAML, SQL, TFS, Visual Studio"
           - "Team size: Solely responsible for the project"
 
 
       - title: "Anti-money laundering (AML):"
-        tagline: "Designed and developed a web application for reporting AML-related events and statistics to ProCredit Holding by ProCredit banks, enhancing compliance and risk management"
+        tagline: "Designed and developed a web application for reporting AML-related events and statistics to ProCredit Holding by ProCredit banks, enhancing compliance and risk management."
         details:
           - "Role: Led both backend and frontend development efforts from scratch"
-          - "Technologies: Employed ASP.NET Core, React.js, Agile approach, Entity Framework Core"
+          - "Technologies: Employed ASP.NET Core, React.js, Entity Framework Core"
           - "Team size: Collaborated with one colleague from the application development team"
 
       - title: "Data Quality Management tool:"
@@ -98,17 +98,17 @@ projects:
         
         
       - title: "<br><br><br><br><br><br>Liquidity Report Manager:"
-        tagline: " Desktop application to store and process regulatory reports on liquidity risk in a way that they can be consumed by the DaVinci application. The application allows uploading Excel files to the database, processing the cube, export XML files."
+        tagline: " Desktop application to store and process regulatory reports on liquidity risk in a way that they can be consumed by the DaVinci application. The application allows uploading Excel files to the database, processing the cube and export XML files."
         details:
           - "Role: Managed the ongoing maintenance and updates of the application"
           - "Technologies: Utilized  C#, SSIS packages, SQL, SSAS, TFS for development and version control"
 
-Academicprojects:
-    title: Academic Projects
-    tagline: 
-      - Design and implementation of a computer game using C++ language and OpenGL platform
-      - Design Three-body problem by Python
-      - Simulated of a 4-Dimensional scalar φ4 theory for a two-component real scalar field φ using C
+#Academicprojects:
+ #   title: Academic Projects
+  #  tagline: 
+   #   - Design and implementation of a computer game using C++ language and OpenGL platform
+    #  - Design Three-body problem in Python
+     # - Simulated of a 4-Dimensional scalar φ4 theory for a two-component real scalar field φ using C
 
 education:
     title: Education
@@ -118,13 +118,13 @@ education:
         time: Oct 2013 - Oct 2016
         details: |
           **Master thesis:**
-          Monte Carlo simulation of the 4D abelian Higgs Model <br>
+          <i> Monte Carlo simulation of the 4D abelian Higgs Model</i> <br>
           The goal was to investigate the Abelian Higgs, which is a U(1) Gauge model coupled to a fixed-length scalar field, on a 4-dimensional lattice. It is modeled by using Monte Carlo simulation in C++ and Matlab.
       - degree: "Bachelor of Science in Hardware Engineering (GPA: 1.9)"
         university: Azad Tehran University, Tehran
         time: Sep 2008 - Feb 2012
         details: |  
-          **Bachelor thesis:** Mobile robot navigation by using Ant colony algorithm <br>
+          **Bachelor thesis:** <i>Mobile robot navigation by using Ant colony algorithm</i> <br>
           The goal was to find an optimal path in mesh-networked space based on the ant colony algorithm.
 certifications:
       title: Certifications
