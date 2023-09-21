@@ -16,8 +16,13 @@
         color: black !important;
         -webkit-print-color-adjust: exact; 
    }
-
-
+   .sidebar-wrapper {
+        position: static;
+        float: right;
+        width: 80%;
+        -webkit-print-color-adjust: exact; 
+    }
+      
     .remove-container.container-block {
        display: none;
     }
