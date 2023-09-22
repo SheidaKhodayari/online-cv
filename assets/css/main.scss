@@ -14,29 +14,18 @@ $resume-order: 1;
 $sidebar-order: 2;
 {% endif %}
 
-.experiences-section, .projects-section, .educations-section  {
-    text-align: justify;
-}
-
-.summary-section .summary {
-    text-align: justify;
-}
-
+.experiences-section, .projects-section, .educations-section,
+.summary-section .summary,
 .honors-container .interests-list li {
     text-align: justify;
 }
 
-.projects-section ul {
+.projects-section ul , .experiences-section ul {
     padding-left: 1em; // adjust this as needed
     margin-left: 0; // remove margin on the left
 }
 
-.experiences-section ul {
-    padding-left: 1em; // adjust this as needed
-    margin-left: 4; // remove margin on the left
-}
-
-.experiences-section li {
+.experiences-section li, .languages-container li, .honors-container li, .interests-container li {
     padding-left: 0; // remove padding on the left
     position: relative;
     &::before {
@@ -46,21 +35,12 @@ $sidebar-order: 2;
     }
 }
 
-.languages-container ul {
+.languages-container ul, .interests-container ul {
     padding-left: 1em; // adjust this as needed
     margin-left: 0; // remove margin on the left
     text-indent: 0; 
 }
 
-.languages-container li {
-    padding-left: 1em; // remove padding on the left
-    position: relative;
-    &::before {
-        content: '\2022'; // this is a bullet character
-        position: absolute;
-        left: -0.4em; // adjust this as needed
-    }
-}
 
 .honors-section ul {
     list-style-type: disc; // ensures bullets are shown
@@ -69,31 +49,6 @@ $sidebar-order: 2;
     text-indent: 0; 
 }
 
-.honors-container li {
-    padding-left: 1em; // remove padding on the left
-    position: relative;
-    &::before {
-        content: '\2022'; // this is a bullet character
-        position: absolute;
-        left: -0.4em; // adjust this as needed
-    }
-}
-
-.interests-container ul {
-    padding-left: 1em; // adjust this as needed
-    margin-left: 0; // remove margin on the left
-    text-indent: 0; 
-}
-
-.interests-container li {
-    padding-left: 1em; // adjust padding on the left
-    position: relative;
-    &::before {
-        content: '\2022'; // this is a bullet character
-        position: absolute;
-        left: -0.4em; // adjust this as needed
-    }
-}
 
 .address-line {
     text-indent: 1em;    /* Adjust this value to get the desired alignment */
