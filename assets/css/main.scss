@@ -37,7 +37,13 @@ $sidebar-order: 2;
     }
 }
 
-.projects-section ul , .experiences-section ul {
+.projects-section ul  {
+    padding-left: 1em; 
+    margin-left: 4; 
+} 
+
+
+.experiences-section ul {
     padding-left: 1em; 
     margin-left: 0; 
 }
