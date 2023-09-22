@@ -35,14 +35,7 @@ $sidebar-order: 2;
     }
 }
 
-.languages-container ul, .interests-container ul {
-    padding-left: 1em; // adjust this as needed
-    margin-left: 0; // remove margin on the left
-    text-indent: 0; 
-}
-
-
-.honors-section ul {
+.languages-container ul, .interests-container ul, .honors-section ul {
     list-style-type: disc; // ensures bullets are shown
     padding-left: 1em; // adjust this as needed
     margin-left: 0; // remove margin on the left
