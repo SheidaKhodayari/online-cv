@@ -89,7 +89,7 @@ projects:
           - "Technologies: Employed ASP.NET Core, React.js, Entity Framework Core"
           - "Team size: Collaborated with one colleague from the application development team"
 
-      - title: "<br><br><br><br><br><br>Data Quality Management tool:"
+      - title: "<br><br><br><br><br><br><br><br><br>Data Quality Management tool:"
         tagline: "Web application with a list of validation checks for credit data according to the general framework described in the Credit Data Validation Standards"
         details:
           - "Role: Developed approximately 50 stored procedure scripts to be executed by the application, ensuring data accuracy and compliance"
